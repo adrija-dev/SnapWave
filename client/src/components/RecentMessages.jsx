@@ -41,8 +41,7 @@ const RecentMessages = () => {
                     <p className='text-slate-400 py-2'>No recent messages</p>
                 ) : (
                     conversations.map((conv) => {
-                        // Find the OTHER member in the conversation (not the logged-in user)
-                        // Note: If you have current user stored in state/context, filter by current user ID
+                       
                         const otherUser = conv.members.find(
                             (member) => member._id !== conv.currentUserId // or member
                         ) || conv.members[0];
