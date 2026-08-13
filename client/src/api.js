@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://snapwave-bha7.onrender.com/api";
 
 export const apiRequest = async (endpoint, options = {}) => {
   const token = localStorage.getItem("snapwave_token");

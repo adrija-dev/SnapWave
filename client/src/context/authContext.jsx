@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 
 const AuthContext = createContext();
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_URL = "https://snapwave-bha7.onrender.com";
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
