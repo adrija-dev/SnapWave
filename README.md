@@ -4,7 +4,7 @@
 
 A modern full-stack social networking platform built with the MERN stack.
 
-🌐 **Live Demo:** [https://snapwave-frontend.onrender.com](https://www.google.com/search?q=https://snapwave-frontend.onrender.com)
+🌐 **Live Demo:** https://snapwave-frontend.onrender.com
 
 ---
 
